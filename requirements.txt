@@ -1,0 +1,12 @@
+
+# Core runtime dependencies
+pynput>=1.7.0             # for cross-platform mouse/keyboard hooks
+Pillow>=8.0.0             # for saving screenshots (PIL)
+pyobjc-core>=8.0          # base PyObjC
+pyobjc-framework-Quartz>=8.0  # needed for native macOS screenshots
+
+# Optional packaging tools (pick one or both)
+pyinstaller>=5.0          # to build a single-file or .app bundle on macOS
+py2app>=0.27              # alternative way to build a .app
+
+pyautogui
